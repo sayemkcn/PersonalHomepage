@@ -1,5 +1,7 @@
+:root{
+  --accent-color:#087f23;
+}
 
- 
 /*--
 Author: W3layouts
 Author URL: http://w3layouts.com
@@ -48,7 +50,7 @@ dl {
 }
 
 body a:hover {
-  color: #f75940;
+  color: var(--accent-color);
   transition: 0.3s ease;
 }
 
@@ -79,7 +81,7 @@ h3.hny-title.two {
 }
 
 h3.hny-title span.dot-1 {
-  color: #f75940;
+  color: var(--accent-color);
   margin-left: 10px;
 }
 
@@ -87,14 +89,14 @@ a.read-more-btn.btn {
   font-weight: 600;
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
   transition: all .2s ease-in-out;
-  border: 2px solid #f75940;
+  border: 2px solid var(--accent-color);
   padding: 0 32px;
   height: 53px;
   font-size: 18px;
   line-height: 53px;
   border-radius: 10px;
   color: #fff;
-  background: #f75940;
+  background: var(--accent-color);
 }
 
 a.read-more-btn.btn:hover {
@@ -3194,7 +3196,7 @@ a.read-more-btn.btn:hover {
 }
 
 .template a:hover {
-  color: #f75940;
+  color: var(--accent-color);
   text-decoration: none;
 }
 
@@ -3205,7 +3207,7 @@ a.read-more-btn.btn:hover {
 }
 
 .template header.active {
-  background: #f75940;
+  background: var(--accent-color);
 }
 
 .template .navbar {
@@ -3225,7 +3227,7 @@ a.read-more-btn.btn:hover {
   width: 34px;
   height: 34px;
   display: inline-block;
-  background: #f75940;
+  background: var(--accent-color);
   line-height: 34px;
   color: #fff;
   border-radius: 6px;
@@ -3249,7 +3251,7 @@ a.read-more-btn.btn:hover {
 }
 
 .template .navbar-expand-lg .navbar-nav .nav-item.active a {
-  color: #f75940;
+  color: var(--accent-color);
 }
 
 .template .navbar-expand-lg .navbar-nav .nav-item:last-child {
@@ -3265,7 +3267,7 @@ a.read-more-btn.btn:hover {
 }
 
 .template .navbar-expand-lg .navbar-nav .nav-link:hover {
-  color: #f75940;
+  color: var(--accent-color);
 }
 
 .template .navbar-expand-lg .navbar-nav .nav-item.active a {
@@ -3274,7 +3276,7 @@ a.read-more-btn.btn:hover {
 
 .template header.nav-fixed {
   padding: 10px 0px;
-  background-color: #f75940;
+  background-color: var(--accent-color);
 }
 
 .navbar-dark .navbar-nav .show>,
@@ -3313,7 +3315,7 @@ nav.fill ul li a:after {
   width: 0%;
   content: '.';
   color: transparent;
-  background: #f75940;
+  background: var(--accent-color);
   height: 2px;
   font-size: 0;
 }
@@ -3524,7 +3526,7 @@ nav.fill ul li a:hover:after {
     width: 34px;
     height: 34px;
     display: inline-block;
-    background: #f75940;
+    background: var(--accent-color);
     border-radius: 6px;
     text-align: center;
   }
@@ -3593,7 +3595,7 @@ nav.fill ul li a:hover:after {
 }
 
 .w3l-banner-main .bannerhny-content span {
-  color: #f75940;
+  color: var(--accent-color);
 }
 
 .w3l-banner-main .banner-button {
@@ -3604,14 +3606,14 @@ nav.fill ul li a:hover:after {
   font-weight: 600;
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
   transition: all .2s ease-in-out;
-  border: 2px solid #f75940;
+  border: 2px solid var(--accent-color);
   padding: 0 32px;
   height: 53px;
   font-size: 18px;
   line-height: 53px;
   border-radius: 10px;
   color: #fff;
-  background: #f75940;
+  background: var(--accent-color);
 }
 
 .w3l-banner-main .banner-button .btn:hover {
@@ -3726,7 +3728,7 @@ nav.fill ul li a:hover:after {
   display: block;
   margin-bottom: 10px;
   font-size: 22px;
-  color: #f75940;
+  color: var(--accent-color);
 }
 
 .w3l-content-12-main .tab-main label:before {
@@ -3761,7 +3763,7 @@ nav.fill ul li a:hover:after {
 .w3l-content-12-main .tab-main input:checked+label {
   color: #334252;
   border: none;
-  border-bottom: 2px solid #f75940;
+  border-bottom: 2px solid var(--accent-color);
 }
 
 .w3l-content-12-main .tab-main #tab1:checked~#content1,
@@ -4053,7 +4055,7 @@ nav.fill ul li a:hover:after {
 }
 
 .w3l-download-main .download-content span {
-  color: #f75940;
+  color: var(--accent-color);
 }
 
 .w3l-download-main .banner-button {
@@ -4064,14 +4066,14 @@ nav.fill ul li a:hover:after {
   font-weight: 600;
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
   transition: all .2s ease-in-out;
-  border: 2px solid #f75940;
+  border: 2px solid var(--accent-color);
   padding: 0 32px;
   height: 53px;
   font-size: 18px;
   line-height: 53px;
   border-radius: 10px;
   color: #fff;
-  background: #f75940;
+  background: var(--accent-color);
 }
 
 .w3l-download-main .banner-button .btn:hover {
@@ -5557,7 +5559,7 @@ body[data-aos-delay='3000'] [data-aos].aos-animate {
 }
 
 .w3l-pricing-6 .price span.currency {
-  color: #f75940;
+  color: var(--accent-color);
   font-size: 50px;
   font-weight: 800;
   line-height: 50px;
@@ -5644,8 +5646,8 @@ body[data-aos-delay='3000'] [data-aos].aos-animate {
 }
 
 .w3l-pricing-6 button.pricing-button.btn:hover {
-  border: 2px solid #f75940;
-  background: #f75940;
+  border: 2px solid var(--accent-color);
+  background: var(--accent-color);
   transition: 0.3s ease;
 }
 
@@ -5696,7 +5698,7 @@ body[data-aos-delay='3000'] [data-aos].aos-animate {
   text-align: center;
   font-weight: 300;
   text-transform: uppercase;
-  color: #f75940;
+  color: var(--accent-color);
 }
 
 .features-4 p.what-para {
@@ -5733,7 +5735,7 @@ body[data-aos-delay='3000'] [data-aos].aos-animate {
 
 .features-4 .features4-grid h5 a:hover,
 .features-4 .features4-grid:hover span.fa.icon-fea4 {
-  color: #f75940;
+  color: var(--accent-color);
   transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -5803,7 +5805,7 @@ body[data-aos-delay='3000'] [data-aos].aos-animate {
 
 .w3l-services-6-main .icon_left_grid span {
   font-size: 2em;
-  color: #f75940;
+  color: var(--accent-color);
   margin-top: 0.1em;
 }
 
@@ -5914,7 +5916,7 @@ body[data-aos-delay='3000'] [data-aos].aos-animate {
 
 .w3l-contact-main .london:before {
   content: "";
-  background: #f75940;
+  background: var(--accent-color);
   position: absolute;
   top: 0;
   min-height: 100%;
@@ -6082,9 +6084,9 @@ body[data-aos-delay='3000'] [data-aos].aos-animate {
 }
 
 .w3l-contact-main button:hover {
-  border: 2px solid #f75940;
+  border: 2px solid var(--accent-color);
   transition: 0.3s ease;
-  background: #f75940;
+  background: var(--accent-color);
 }
 
 .w3l-contact-main .cont-details h4 {
@@ -6099,7 +6101,7 @@ body[data-aos-delay='3000'] [data-aos].aos-animate {
 }
 
 .w3l-contact-main .cont-details h6 a {
-  color: #f75940;
+  color: var(--accent-color);
 }
 
 @media (max-width: 992px) {

@@ -95,7 +95,7 @@ Author URL: http://w3layouts.com
             <div class="content-info-tabs mt-4">
                 <div class="tab-main mx-auto text-md-center">
 
-                    <input id="tab1" type="radio" name="tabs" checked>
+                    <input id="tab1" type="radio" name="tabs">
                     <label for="tab1"><img src="assets/images/springio-icon.svg"
                                            style="height: 32px;margin-bottom: 10px;"><br/></span>Java/Kotlin</label>
 
@@ -116,6 +116,56 @@ Author URL: http://w3layouts.com
         </div>
     </div>
 </section>
+
+<footer class="w3l-footer-16">
+    <div class="footer-content py-lg-5 py-4 text-center">
+        <div class="container">
+            <div class="copy-right">
+                <h6>Work with <span class="fa fa-heart" aria-hidden="true"></span> love and passion in each project </h6>
+                <ul class="footer-gd-16">
+                    <li><a href="https://www.linkedin.com/in/sayemkcn"><i class="fa fa-linkedin-square"></i>  Linkedin</a></li>
+                    <li><a href="https://twitter.com/rimonxyz"><i class="fa fa-twitter-square"></i>  Twitter</a></li>
+                    <li><a href="https://facebook.com/sayemoid"><i class="fa fa-facebook-square"></i>  Facebook</a></li>
+                </ul>
+            </div>
+            <button onclick="topFunction()" id="movetop" title="Go to top">
+                <span class="fa fa-angle-up"></span>
+            </button>
+        </div>
+    </div>
+
+    <!-- move top -->
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("movetop").style.display = "block";
+            } else {
+                document.getElementById("movetop").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <!-- //move top -->
+    <script>
+        $(function () {
+            $('.navbar-toggler').click(function () {
+                $('body').toggleClass('noscroll');
+            })
+        });
+    </script>
+</footer>
+
+
 
 </body>
 
